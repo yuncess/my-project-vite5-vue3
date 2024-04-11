@@ -1,0 +1,13 @@
+@import './base.css';
+@import './atomic-public.scss';
+
+body {
+  background-color: $bg-c;
+}
+
+/* 修el-table改表头的背景颜色 */
+.ep-table .ep-table__header tr,
+.ep-table .ep-table__header th.ep-table__cell {
+  background-color: #f7f7f7;
+  color: $t-c-1;
+}

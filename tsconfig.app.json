@@ -1,0 +1,33 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "src/**/*.tsx",
+    "src/**/*.ts",
+    "auto-imports.d.ts"
+  ],
+  "exclude": ["node_modules", "dist", "src/**/__tests__/*"],
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "sourceMap": true,
+    "jsx": "preserve",
+    "target": "ESNext",
+    "lib": ["esnext", "dom"],
+    "types": ["vite/client", "element-plus/global"],
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "moduleResolution": "Node",
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["src/*"],
+      "#/*": ["types/*"]
+    }
+  }
+}

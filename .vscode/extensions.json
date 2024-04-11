@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "lokalise.i18n-ally", // vue-i18n管理多语言
+    "liying.easy-deployment" // 部署研发云
+  ]
+}

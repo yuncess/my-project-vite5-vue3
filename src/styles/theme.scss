@@ -1,0 +1,46 @@
+/**
+ * 配色
+ */
+$c-primary: #077afe; //主色调
+$c-success: #12ce66;
+$c-warning: #f1902b;
+$c-danger: #e34d59;
+
+/**
+ * 字色
+ */
+$t-c-base: #1b213b; //基础
+// $t-color-gray: #666;
+// $t-color-grayer: #999;
+$t-c-1: #1b213b; //一级
+$t-c-2: #505a69; //二级
+$t-c-3: #88909b; //三级
+$t-c-4: #c4cbd4; //四级
+$t-c-disabled: #e1e6ec; //提示、置灰
+
+/**
+ * 线条
+ */
+$b-c-base: #dcdcdc; //边框
+$b-c-split: #e7e7e7; //分割线
+
+/**
+ * 背景
+ */
+$bg-c-text: #fafafa; //文案背景
+$bg-c-icon: #ededed; //icon背景
+$bg-c: #d8dcda; //系统背景
+
+/**
+ * 投影
+ */
+//基础投影
+@mixin s1 {
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.12),
+    0 0 6px rgba(0, 0, 0, 0.04);
+}
+//扩散投影
+@mixin s2 {
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
